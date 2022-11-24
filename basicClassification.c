@@ -9,6 +9,10 @@ int isPrime(int x)
    if (x < 1)
       return 0;
 
+   if(x==1){
+      return ans;
+   }   
+
    if (x == 2)
    {
       return ans;
