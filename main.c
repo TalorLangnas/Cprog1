@@ -13,19 +13,19 @@ int main(){
     int maxNum = getMax(x,y);
 
 // Armstrong numbers
- printf("the Armstrong numbers are: ");
+ printf("The Armstrong numbers are:");
      for(int i = MinNum; i<= maxNum; i++){
          if(isArmstrong(i)){
-            printf("%d ",i);
+            printf(" %d",i);
          }
      }
     
 
 // Palindrom numbers
-    printf("\nthe Palindrom numbers are: ");
+    printf("\nThe Palindromes are:");
     for(int i = MinNum; i<= maxNum; i++){
         if(isPalindrome(i)){
-            printf("%d ",i);
+            printf(" %d",i);
         }
     }
    
@@ -34,16 +34,16 @@ int main(){
     printf("\nthe Prime numbers are: ");
     for(int i = MinNum; i<= maxNum; i++){
         if(isPrime(i)){
-            printf("%d ",i);
+            printf(" %d",i);
         }
     }
     
 
 // Strong numbers
-printf("\nthe Strong numbers are: ");
+printf("\nThe Strong numbers are:");
     for(int i = MinNum; i<= maxNum; i++){
         if(isStrong(i)){
-            printf("%d ",i);
+            printf(" %d",i);
         }
     }  
 
