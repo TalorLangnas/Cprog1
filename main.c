@@ -31,7 +31,7 @@ int main(){
    
 
 //Prime number
-    printf("\nthe Prime numbers are: ");
+    printf("\nthe Prime numbers are:");
     for(int i = MinNum; i<= maxNum; i++){
         if(isPrime(i)){
             printf(" %d",i);
@@ -50,4 +50,5 @@ printf("\nThe Strong numbers are:");
 
 return 0;
 
+//test commit line
 }
