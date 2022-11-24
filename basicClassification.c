@@ -21,7 +21,7 @@ int isPrime(int x)
    {
       return 0;
    }
-   for (int i = sqrt(x); i > 0; i -= 2)
+   for (int i = sqrt(x); i > 2; i--)
    {
       if (x % i == 0)
       {
@@ -35,7 +35,7 @@ int isPrime(int x)
 int isStrong(int x){
    int num = x;
    int counter = 0;
-   while(num!=0 && counter<x){
+   while(num!=0){
       counter = counter + factorial(num%10);
       num = num/10;
    }
@@ -45,7 +45,7 @@ int isStrong(int x){
 
 int factorial(int n){
    int counter = 1;
-   for(int i=2; i<=n; i++){
+   for(int i=1; i<=n; i++){
       counter = counter * i;
    }
    return counter;
@@ -73,5 +73,6 @@ int getMax(int x, int y){
 
    return ans;
 }
+
 
 
