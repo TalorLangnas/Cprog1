@@ -34,7 +34,7 @@ int main(){
    
 
 //Prime number
-    printf("\nthe Prime numbers are:");
+    printf("\nThe Prime numbers are:");
     for(int i = MinNum; i<= maxNum; i++){
         if(isPrime(i)){
             printf(" %d",i);
