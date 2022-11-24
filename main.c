@@ -50,7 +50,7 @@ printf("\nThe Strong numbers are:");
         }
     }  
 
-
+printf("\n");
 return 0;
 
 //test commit line
