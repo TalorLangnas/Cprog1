@@ -9,11 +9,10 @@ int main(){
     scanf("%d", &x);
     scanf("%d", &y);
 
-   //int MinNum = getMin(x,y);
-   // int maxNum = getMax(x,y);
+   int MinNum = getMin(x,y);
+   int maxNum = getMax(x,y);
 
-   int MinNum = x;
-   int maxNum = y;
+  
 
 // Armstrong numbers
  printf("The Armstrong numbers are:");
